@@ -1,0 +1,113 @@
+h1 {
+    font-size: 4rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  h2.survey,
+  .photo {
+    border-bottom: 1px solid #eee;
+  }
+  
+  h3 {
+    font-weight: 600;
+    font-size: 1.7rem;
+  }
+  
+  label {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  h4 {
+    font-size: 1.3rem;
+  }
+  
+  .options {
+    width: 200px;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+  
+  .alert {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-align: center;
+  }
+  
+  /* Modal */
+  
+  .myModal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .my-modal-content {
+    background-color: #f4f4f4;
+    margin: 150px auto;
+    width: 340px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+  }
+  
+  .my-modal-header h3 {
+    margin: 0;
+  }
+  
+  .my-modal-header {
+    background: #346a86;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  .my-modal-body {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+  }
+  
+  .myCloseBtn {
+    line-height: 30px;
+    color: #fff;
+    float: right;
+    font-size: 30px;
+  }
+  
+  .myCloseBtn:hover,
+  .myCloseBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  img.avatar {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    margin-bottom: 30px;
+  }
+  
+  @keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
